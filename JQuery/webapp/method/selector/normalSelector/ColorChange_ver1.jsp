@@ -12,13 +12,13 @@
 			<li id="one">
 				<span>First</span>
 			</li>
-			<li id="two">
+			<li class="two">
 				<span>Two</span>
 			</li>
-			<li id="three">
+			<li id="one">
 				<span>Three</span>
 			</li>
-			<li id="four">
+			<li class="two">
 				<span>Four</span>
 			</li>
 		</ul>
@@ -30,6 +30,10 @@
 	$(document).ready(function(){
 		$('#one').css('color','red');
 	});
+	
+	$(document).ready(function(){
+		$('.two').css('color','blue');
+	})
 		
 </script>
 </html>
